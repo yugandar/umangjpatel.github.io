@@ -1,0 +1,75 @@
+html {
+  background-color: #0C5BC4;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0 20px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+#title {
+  color: #78CA66;
+}
+
+p {
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+#marquee {
+  position: relative;
+  -webkit-animation:left-marquee 20s linear infinite 2s normal;
+  -moz-animation:left-marquee 20s linear infinite 2s normal;
+  animation:left-marquee 20s linear infinite 2s normal;
+}
+
+
+div.card{
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: #180c02;
+  display: inline-block;
+}
+
+div.app-name a {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact {
+  color: #78CA66;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+#footer {
+  text-align: center;
+}
+
+@-webkit-keyframes left-marquee{
+  from{bacgkround-position:0 0;}
+  to{background-position:-4000px 0;}
+
+}
+
+@-moz-keyframes left-marquee{
+  from{bacgkround-position:0 0;}
+  to{background-position:-4000px 0;}
+
+}
+
+@keyframes left-marquee{
+  from{bacgkround-position:0 0;}
+  to{background-position:-4000px 0;}
+}
